@@ -1,0 +1,82 @@
+[
+  {
+    "question": "In Pokemon Generation 1, whom does Gary choose if you take Bulbasaur?",
+    "answerOne": "Pikachu",
+    "answerTwo": "Eevee",
+    "answerThree": "Charmander",
+    "answerFour": "Squirtle",
+    "correct": "3"
+  },
+  {
+    "question": "Low kick is super effective against which Pokemon?",
+    "answerOne": "Lapras",
+    "answerTwo": "Arcanine",
+    "answerThree": "Pidgeotto",
+    "answerFour": "Clefairy",
+    "correct": "4"
+  },
+  {
+    "question": "What is the name of the Professor who gives your first pokemon in Pokemon Generation 1?",
+    "answerOne": "Professor Elm",
+    "answerTwo": "Professor Birch",
+    "answerThree": "Professor Oak",
+    "answerFour": "Professor Pine",
+    "correct": "3"
+  },
+  {
+    "question": "In Pokemon Yellow, at which level does Pikachu learn slam?",
+    "answerOne": "19",
+    "answerTwo": "20",
+    "answerThree": "21",
+    "answerFour": "22",
+    "correct": "2"
+  },
+  {
+    "question": "In the original Pokemon series, Gyrados is which two types?",
+    "answerOne": "Water Dragon",
+    "answerTwo": "Flying Dragon",
+    "answerThree": "Water Flying",
+    "answerFour": "Dragon Electric",
+    "correct": "3"
+  },
+  {
+    "question": "In the original Pokemon series, Normal type moves are super effective against which type(s)?",
+    "answerOne": "Ghost",
+    "answerTwo": "Fighting",
+    "answerThree": "Both of the above",
+    "answerFour": "None of the above",
+    "correct": "4"
+  },
+  {
+    "question": "In the original Pokemon, what is the name of the item needed to engage with Ghost type pokemon?",
+    "answerOne": "Silph Scope ",
+    "answerTwo": "Cursed Trinket",
+    "answerThree": "Lavender Amulet",
+    "answerFour": "Pokeflute",
+    "correct": "1"
+  },
+  {
+    "question": "Which pokemon can be caught in both the Safari Zone, as well as Cerulean Cave?",
+    "answerOne": "Kangaskhan",
+    "answerThree": "Chancey",
+    "answerTwo": "Dragonair",
+    "answerFour": "Golem",
+    "correct": "2"
+  },
+  {
+    "question": "Where is Missingo located?",
+    "answerOne": "Viridian City",
+    "answerTwo": "Mt. Moon",
+    "answerThree": "Cinnibar Island",
+    "answerFour": "Rocket Hideout",
+    "correct": "3"
+  },
+  {
+    "question": "Which Pokemon do I prefer?",
+    "answerOne": "Dragonite",
+    "answerTwo": "Machamp",
+    "answerThree": "Gengar",
+    "answerFour": "Alakazam",
+    "correct": "1"
+  }
+]
