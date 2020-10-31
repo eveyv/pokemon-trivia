@@ -29,6 +29,9 @@ class TriviaGame extends Component {
 
     triviaGameStart = () => {
       this.newQuestion();
+      this.setState({
+        questionNumber: this.state.questionNumber = 1
+      })
     };
 
     isCorrect = e => {
@@ -39,7 +42,7 @@ class TriviaGame extends Component {
     };
 
     idCheck = e => {
-      let id = e.target.getAttribute('dataId');
+      let id = e.target.getAttribute('dataid');
         if (id === this.state.correct) {
           this.setState({
             totalCorrect: this.state.totalCorrect + 1
@@ -62,35 +65,37 @@ class TriviaGame extends Component {
             Play
           </button>
           <h3 className='question-number'>
-            Question {this.state.totalQuestions}
+            Question {this.state.questionNumber}
           </h3>
           <h2 className='trivia-question'>
             {this.state.question}
           </h2>
+          <div className="answer-column">
             <button
               className="answer-one"
               onClick={this.isCorrect}
-              dataId='1'>
+              dataid='1'>
                 {this.state.answerOne}
             </button>
             <button
               className="answer-two"
               onClick={this.isCorrect}
-              dataId="2">
+              dataid="2">
                 {this.state.answerTwo}
             </button>
             <button
               className="answer-three"
               onClick={this.isCorrect}
-              dataId="3">
+              dataid="3">
                 {this.state.answerThree}
             </button>
             <button
               className="answer-four"
               onClick={this.isCorrect}
-              dataId="4">
+              dataid="4">
                 {this.state.answerFour}
             </button>
+            </div>
       </div>
     )
   }
