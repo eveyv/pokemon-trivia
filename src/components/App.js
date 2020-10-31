@@ -1,6 +1,7 @@
 import '../App.css';
 import TriviaGame from './triviaGame.js'
 
+
 function App() {
   return (
     <div className="App">
@@ -8,7 +9,7 @@ function App() {
       Pokemon Trivia
       </header>
       <TriviaGame
-      
+
       />
     </div>
   );
