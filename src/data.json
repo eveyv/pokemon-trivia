@@ -58,8 +58,8 @@
   {
     "question": "Which pokemon can be caught in both the Safari Zone, as well as Cerulean Cave?",
     "answerOne": "Kangaskhan",
-    "answerThree": "Chancey",
-    "answerTwo": "Dragonair",
+    "answerTwo": "Chancey",
+    "answerThree": "Dragonair",
     "answerFour": "Golem",
     "correct": "2"
   },
