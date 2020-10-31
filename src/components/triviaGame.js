@@ -51,9 +51,30 @@ class TriviaGame extends Component {
         if (this.state.questionNumber < this.state.totalQuestions) {
           this.newQuestion();
         } else {
-          // game over
+          this.setState({
+            totalCorrect: this.state.totalCorrect + 1
+          });
+          this.gameOver()
         }
       };
+
+      gameOver = () => {
+        if (this.state.questionNumber = 11) {
+          alert(`GAME OVER. YOU SCORED ${this.state.totalCorrect} CORRECT`)
+        }
+          this.setState({
+            triviaReset: false,
+            totalCorrect: 0,
+            questionNumber: 0,
+            totalQuestions: 10,
+            question: '',
+            answerOne: '',
+            answerTwo: '',
+            answerThree: '',
+            answerFour: '',
+            correct: '',
+          })
+      }
 
   render() {
     return(
