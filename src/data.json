@@ -43,8 +43,8 @@
     "question": "In the original Pokemon series, Normal type moves are super effective against which type(s)?",
     "answerOne": "Ghost",
     "answerTwo": "Fighting",
-    "answerThree": "Both of the above",
-    "answerFour": "None of the above",
+    "answerThree": "Both",
+    "answerFour": "Neither",
     "correct": "4"
   },
   {
