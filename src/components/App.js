@@ -1,14 +1,14 @@
 import '../App.css';
-import TriviaGame from './triviaGame.js'
+import Question from './question.js'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      Pokemon Trivia
+        Pokemon Trivia
       </header>
-      <TriviaGame
-      
+      <Question
+
       />
     </div>
   );
